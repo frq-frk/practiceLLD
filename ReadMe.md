@@ -108,6 +108,29 @@ Please go through builder pattern example package
 - Sometimes no of lines of code can be huge during implementation.
 - Have to think of end to end chain.
 
+
+### Abstract Factory Method
+#### Definition
+- Factory of factory pattern
+- Creating objects which belong to a family of similar objects.
+- Implemented using a common interface.
+- Example Java DocumentBuilder
+
+#### Analogy
+Consider it as factory of factories/ abstraction of factories where each factory again will implement factory pattern.
+
+#### Code walkthrough
+Please go through the abstract factory pattern example
+
+#### Pros
+- Follows Open Closed principle, Single Responsibility principle
+- good for abstraction.
+- loose coupling.
+
+#### Cons
+- Code becomes complex over the time.
+- Pattern inside the pattern.
+
 [//]: # (#### Definition)
 
 [//]: # ()
